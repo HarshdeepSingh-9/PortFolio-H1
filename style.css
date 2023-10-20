@@ -1,15 +1,13 @@
 body {
-  background-image: url(loop.gif);
-  background-repeat:round;
+  background-image: url(backg-1.jpeg);
+  background-repeat:no-repeat;
   background-color: #333;
   background-position: center;
   background-attachment: fixed;
   margin: 0;
   padding: 0;
   height: 100vh;
-  background-size: contain;
-  background-repeat: repeat-y;
-
+  background-size: cover;
 }
 
 .body-content {
@@ -198,6 +196,10 @@ footer {
   .intro2{
     font-size: medium;
   }
+  .skill-icon {
+    max-width: 50%;
+    height: auto;
+  }
   
 }
 @media screen and (min-width: 700px ){  
@@ -206,14 +208,6 @@ footer {
     background-color: #333;
     background-position: center;
     background-attachment: fixed;
-    background-repeat: repeat-y;
-   
   }
   
-}
-@media only screen and (min-width: 500px) and (orientation: landscape) {
-  body{
-    background-repeat: repeat-x;
-  }
- 
 }
