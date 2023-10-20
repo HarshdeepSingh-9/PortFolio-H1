@@ -180,15 +180,17 @@ footer {
 
 @media screen and (max-width: 700px ){   /* Mobile*/
   body{
-    
+    background-image: url(mobilebg.jpg);
     background-color: #333;
     background-position: center;
     background-attachment: fixed;
     background-repeat: repeat-y;
     background-size: cover;
   }
+
   .abt-me{
     margin: 30px;
+    background-color: #00000073;
   }
   .plum{
     display: none;
@@ -200,6 +202,13 @@ footer {
     max-width: 50%;
     height: auto;
   }
+  .skill-card {
+    color: white;
+  }
+  .custom{
+    background-color: white;
+  }
+  
   
 }
 @media screen and (min-width: 700px ){  
